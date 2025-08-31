@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Snow — Creative Portfolio</title>
+  <meta name="description" content="Portfolio of John Snow (a.k.a. Jon Snow) — Ranger, King in the North, and Creative Problem Solver." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/wolf.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img class="brand-mark" src="assets/img/wolf.svg" alt="Wolf sigil" />
+        <span>John Snow</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1><span class="eyebrow">Ranger • Leader • Strategist</span>John Snow</h1>
+          <p class="lede">I lead with calm resolve, design with clarity, and code my path through winter’s challenges. (Also known as <strong>Jon Snow</strong>.)</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">See Work</a>
+            <a class="btn btn-ghost" href="#about">Learn More</a>
+          </div>
+          <ul class="hero-facts">
+            <li>Title: King in the North (former)</li>
+            <li>Allegiances: Night’s Watch, House Stark</li>
+            <li>Location: The North &amp; Beyond the Wall</li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <div class="sigil-card glass">
+            <img src="assets/img/sigil.svg" alt="House Stark Sigil art" />
+          </div>
+          <div class="sword-card glass">
+            <img src="assets/img/sword.svg" alt="Longclaw sword art" />
+          </div>
+          <div class="snow-badge">Winter•Ready</div>
+        </div>
+      </div>
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>A calm problem solver who values honor, empathy, and shipping things that work. I bridge wild requirements with reliable delivery.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <h3>Philosophy</h3>
+          <p>“When enough people tell you you’re a leader, you accept the responsibility.” I build teams like I build products—human-first, resilient, and brave under pressure.</p>
+        </div>
+        <div class="about-card glass">
+          <h3>What I Do</h3>
+          <ul class="checklist">
+            <li>Plan and lead complex missions (a.k.a. projects)</li>
+            <li>Design simple systems for harsh environments</li>
+            <li>Collaborate across houses (teams &amp; stakeholders)</li>
+            <li>Ship MVPs fast; iterate like ravens in flight</li>
+          </ul>
+        </div>
+        <div class="about-card glass">
+          <h3>Fun Lore</h3>
+          <p>Warden of the North (briefly). Knows nothing (allegedly). Close friend of a very good boi named Ghost.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Battle-tested capabilities—on the field and in the code.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill glass">
+            <h4>Leadership</h4>
+            <p>From ranger to commander: align vision, inspire action, and protect people.</p>
+          </div>
+          <div class="skill glass">
+            <h4>Strategy</h4>
+            <p>Resource planning, risk triage, and graceful fallback under winter loads.</p>
+          </div>
+          <div class="skill glass">
+            <h4>Frontend</h4>
+            <p>Semantic HTML, modern CSS, accessible components, fast static sites.</p>
+          </div>
+          <div class="skill glass">
+            <h4>Backend</h4>
+            <p>RESTful thinking, pragmatic APIs, resilient architectures.</p>
+          </div>
+          <div class="skill glass">
+            <h4>Ops</h4>
+            <p>Checklists, observability, incident calm. The pager is coming.</p>
+          </div>
+          <div class="skill glass">
+            <h4>Allies</h4>
+            <p>Ghost (loyal), Houses (selective), Dragons (negotiable).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <p>Pragmatic case studies wrapped in Northern style.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass">
+          <img alt="Wall Monitoring Dashboard" src="assets/img/project-wall.svg" class="project-art" />
+          <div class="project-body">
+            <h3>Wall Sentinel</h3>
+            <p class="muted">Anomaly detection dashboard monitoring beyond-the-wall activity. Latency budget: cold-proof.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Telemetry</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <img alt="Raven Messaging Network" src="assets/img/project-raven.svg" class="project-art" />
+          <div class="project-body">
+            <h3>RavenNet</h3>
+            <p class="muted">A resilient, low-bandwidth messaging protocol with eventual consistency. (Feathers included.)</p>
+            <ul class="tags">
+              <li>Protocols</li>
+              <li>Resilience</li>
+              <li>Edge</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <img alt="Alliance Builder UI" src="assets/img/project-alliance.svg" class="project-art" />
+          <div class="project-body">
+            <h3>Alliance Builder</h3>
+            <p class="muted">A decision tool for coalition building across rival houses—optimize outcomes, minimize betrayal.</p>
+            <ul class="tags">
+              <li>UX</li>
+              <li>Decisioning</li>
+              <li>Data Viz</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Timeline</h2>
+          <p>Selected highlights from cold starts to warm alliances.</p>
+        </div>
+        <ol class="timeline">
+          <li>
+            <div class="time">Year 1</div>
+            <div class="dot"></div>
+            <div class="content glass">
+              <h4>Joined the Night’s Watch</h4>
+              <p>Chose service and steady growth over easy comfort. Learned discipline and diligence on day one.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">Year 2</div>
+            <div class="dot"></div>
+            <div class="content glass">
+              <h4>Ranger &amp; Mediator</h4>
+              <p>Bridged gaps between teams with different incentives. Built trust with pragmatic delivery.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">Year 3</div>
+            <div class="dot"></div>
+            <div class="content glass">
+              <h4>Commander</h4>
+              <p>Earned leadership through action, not titles. Focused on safety, clarity, and sustainable results.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">Year 4</div>
+            <div class="dot"></div>
+            <div class="content glass">
+              <h4>King in the North</h4>
+              <p>Aligned stakeholders across the North. Shipped a shared vision with guardrails and trust.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Send a raven—or just click the button.</p>
+      </div>
+      <div class="contact-card glass">
+        <div class="contact-left">
+          <h3>Let’s build something that survives winter.</h3>
+          <p class="muted">Open to collaborations, strategy consults, and high‑impact missions.</p>
+        </div>
+        <div class="contact-right">
+          <a class="btn btn-primary btn-xl" href="mailto:john.snow@thenorth.example">Send a Raven</a>
+          <div class="links">
+            <a href="#" aria-label="GitHub">github.com/john-snow</a>
+            <a href="#" aria-label="Publications">thenorth.example/writings</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-inline">
+          <img src="assets/img/wolf.svg" alt="sigil" />
+          <strong>John Snow</strong>
+        </div>
+        <p class="muted small">Fan-made creative portfolio. Not affiliated with HBO or George R. R. Martin.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <p class="muted tiny center">© <span id="year">2025</span> John Snow. Built with HTML &amp; CSS.</p>
+  </footer>
+
+</body>
+</html>
